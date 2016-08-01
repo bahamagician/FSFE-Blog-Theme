@@ -1,8 +1,8 @@
-# ZURB Template
+# FullStackFrontEnd.com Blog Theme
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+This is the blog theme I'm developing for FullStackFrontEnd.com
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+This theme utilizes the Zurb Stack for Foundation 6.  As such, below are the details for setting this up...
 
 This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
 
