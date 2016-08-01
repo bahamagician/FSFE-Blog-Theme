@@ -1,6 +1,6 @@
 # FullStackFrontEnd.com Blog Theme
 
-This is the blog theme I'm developing for [FullStackFrontEnd.com](FullStackFrontEnd.com)
+This is the blog theme I'm developing for [FullStackFrontEnd.com](http://FullStackFrontEnd.com)
 
 This theme utilizes the Zurb Stack for Foundation 6.  As such, below are the details for setting this up...
 
