@@ -1,8 +1,31 @@
+body{
+  background-image: url('../img/ps_neutral.png');
+}
+
+#header-overlay{
+  background-color: #fff;
+}
+#header {
+  padding:10px 0px;
+  @include breakpoint(large up){
+    padding: 50px 0px;
+  }
+}
+
+#hamburger{
+  @include hamburger(#333);
+}
 h1#logo{
   font-family: pf;
   font-weight: 400;
   font-style: normal;
-  font-size: 5rem;
+  font-size: 1.65rem;
+  text-transform: uppercase;
+  margin-top:10px;
+  @include breakpoint(large up){
+    font-size: 3.5rem;
+    margin-top: auto;
+  }
   text-align: center;
   color: #333;
 }
@@ -12,10 +35,50 @@ h1#logo{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  margin-top: -2.188rem;
+  margin-top: -0.5rem;
+  line-height: 1rem;
+  @include breakpoint(large up){
+    margin-top: -1.5rem;
+  }
   color: #333;
 }
 #main-nav{
   text-align: center;
-  border-top: 2px solid #333;
+  border-top: 1px solid #eeeeee;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-family: pf;
+  @include breakpoint(small only){
+    padding: 10px 0px 15px;
+  }
+  a{
+    color: #333;
+    padding: 2rem 1rem;
+  }  
+  .active a{
+    color: #90cfca;
+    background-color: transparent;
+  }
+}
+
+#main-nav .menu>li>a:after{
+  content: '|';
+  margin-left: 2rem;
+  color: #d6d6d6;
+}
+
+.off-canvas{
+  background-color: #333332;
+  color: #b3b3b1;
+  a{
+    color: #b3b3b1;
+    padding: 15px 30px !important;
+  }
+  li{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
 }
